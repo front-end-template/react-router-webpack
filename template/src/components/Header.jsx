@@ -1,9 +1,9 @@
 import * as React from 'react'
 
-export default function Header (props: { name: string }) {
+export default function Header (props: { title: string }) {
   return (
     <header className="header">
-      {props.name}
+      {props.title}
     </header>
   )
 }
